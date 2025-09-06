@@ -1,4 +1,4 @@
-# Herança em Python - Sistema de Contas Bancárias 🏦🐍
+# Herança em Python - Sistema de Contas Bancárias 
 
 Este repositório faz parte de atividades de estudo do **Curso Técnico em Desenvolvimento de Sistemas** (Educação Profissional).  
 O código foi **adaptado e testado** a partir do material do curso, incluindo exemplos de saídas para melhor compreensão.
