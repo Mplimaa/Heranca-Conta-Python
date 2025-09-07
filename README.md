@@ -15,13 +15,13 @@ Heranca-Conta-Python/
 
 ## Classes e Funcionalidades
 
-### 🔹 `CalculadoraTarifas` (em `ContaTarifas.py`)
-- **Classe utilitária** com métodos estáticos para cálculo de tarifas:
+###  `CalculadoraTarifas` (em `ContaTarifas.py`)
+- **Classe utilitária** com métodos estáticos para cálculo de tarifas:(encapsulamento: conjunto de regras contido em uma unica classe, para evitar repetição e redundância, as classes se comunicam com  a ContaTarifas)
   - `calcular_tarifa_base()` → tarifa fixa (ex.: R$ 5,00).
   - `calcular_tarifa_transacao(numero_transacoes)` → tarifa extra caso ultrapasse 10 transações.
   - `calcular_tarifa_saldo(saldo)` → tarifa adicional se o saldo for menor que R$ 1000.
 
-### 🔹 `ContaBancaria` (em `ContaBancaria.py`)
+###  `ContaBancaria` (em `ContaBancaria.py`)
 - **Classe base** para contas.
 - Atributos:
   - `numero_conta`, `saldo`, `numero_transacoes`.
@@ -30,12 +30,12 @@ Heranca-Conta-Python/
   - `sacar(valor)` → retira valor do saldo e registra transação.
   - `calcular_tarifa()` → usa `CalculadoraTarifas` para calcular a tarifa total.
 
-### 🔹 `ContaCorrente` (em `ContaCorrente.py`)
+###  `ContaCorrente` (em `ContaCorrente.py`)
 - Herda de `ContaBancaria`.
 - Representa contas correntes.
 - Exemplo de uso no próprio arquivo.
 
-### 🔹 `ContaPoupanca` (em `ContaPoupanca.py`)
+###  `ContaPoupanca` (em `ContaPoupanca.py`)
 - Herda de `ContaBancaria`.
 - Representa contas poupança.
 - Exemplo de uso no próprio arquivo.
